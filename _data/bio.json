@@ -4,7 +4,6 @@
     "label": "Student",
     "picture": "https://github.com/jxiong1.png",
     "email": "jxiong@hawaii.edu",
-    "phone": "808-333-4444",
     "website": "https://jxiong1.github.io",
     "summary": "I am studying for a B.S. in Computer Engineering in the Department of Electrical and Computer Engineering at the University of Hawaii. I expect to graduate in Fall, 2027.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
@@ -31,9 +30,9 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Fall, 2027)",
+      "area": "Computer Engineering (expected Fall, 2027)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2024-07-01",
       "endDate": "Present",
       "courses": [
       ]
@@ -41,41 +40,45 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "HMSA",
+      "position": "ServiceNow Developer Intern",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2024-01-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Software Developement on the ServiceNow platform",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Developed and maintained CMDB management application", 
+        "Bug fixes/maintainence for existing application/features on the ServiceNow platform"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "UH School of Architecture",
+      "position": "Computer Lab Assistant II",
+      "website": "",
+      "startDate": "2024-07-01",
+      "endDate": "Present",
+      "summary": "IT Support",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "IT Support", 
+        "Software Deployment",
+        "Classroom Technology Integration",
+        "Printing Service"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
+      "organization": "Team RoSE (Robotic Space Exploration)",
+      "website": "https://github.com/RoboticSpaceExploration",
+      "position": "GNC Software Developer",
+      "startDate": "2024-08-01",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "Software Developer of the Guidance, Navigation and Control within the University Rover Challenge (URC) Team",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Microcontroller integration with mechanical parts ",
+        "Wiring design",
+        "Software enabled control for the Payload subsystem of the rover",
+        "ROS2 Control and Autonav integration for the rover"
       ]
     },
     {
@@ -95,15 +98,15 @@
   "awards": [
     {
       "title": "B+ Scholarship",
-      "date": "2013-Present",
+      "date": "2024-Present",
       "awarder": "State of Hawaii",
       "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Dean's List",
+      "date": "2024 - Present",
+      "awarder": "Univerisity of Hawaii at Manoa",
+      "summary": "University of Hawaii at Manoa Undergraduate students are awarded the UH Mānoa Dean’s List distinction if they earn a UH Mānoa semester grade point average of 3.5 or higher based on 12 credits or more."
     }
   ],
   "references": [
