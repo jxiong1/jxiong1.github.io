@@ -37,7 +37,7 @@ One example I found on Stack Overflow is the question **"Parse out date from fil
 The question revolves around PowerShell and filenames containing dates and times. The developer was attempting to work with filenames formatted in a way that contained year, month, day, hour, and minute information. The question specifically focuses on how to interpret or sort the date information rather than asking a broad question such as "How do I sort files?"
 
 **Question:** [Python date of the previous month](https://stackoverflow.com/questions/48529660/parse-out-date-from-filename-and-sort-by-date)
-
+```
 > **Q: python date of the previous month**
 >
 > I am trying to get the date of the previous month with Python. Here is what I've tried:
@@ -76,13 +76,13 @@ The question revolves around PowerShell and filenames containing dates and times
 > can't find any other way).
 >
 > Thanks for your help!
-
+```
 The question also provides relevant context about the problem and identifies the tools being used. This allows the problem to be specific enough that another developer can understand what the developer is trying to accomplish without needing a large amount of unrelated information.
 
 The response demonstrates why a well-formed question can lead to an efficient and effective solution. The answer given by other contributors points out that the date and time components of the filename are already arranged from the largest unit of time to the smallest. Because of this ordering, the filenames can be sorted as strings rather than requiring the developer to perform complicated date conversions. This solution addresses the underlying problem, since the responder recognizes the desired result can be achieved in a much simpler fashion.
 
 ### Answer
-
+```
 > **With this format:**
 >
 > `myFileYYYYMMddHHmm.file`
@@ -116,17 +116,17 @@ The response demonstrates why a well-formed question can lead to an efficient an
 >
 > The regex engine will expand `$1` in the substitution string to "capture
 > group #1", which is the 12 digits we picked up at the end.
-
+```
 ## Example of a Question That Is Not Smart
 
 For comparison, I examined the Stack Overflow question **"how to extract data with days ago and get specific time in python."** [Stack Overflow: How to extract data with days ago and get specific time in Python](https://stackoverflow.com/questions/73852334/how-to-extract-data-with-days-ago-and-get-specific-time-in-python)
 
 **Question:** [How to extract data with days ago and get specific time in Python](https://stackoverflow.com/questions/73852334/how-to-extract-data-with-days-ago-and-get-specific-time-in-python)
-
+```
 > **Q: how to extract data with days ago and get specific time in python**
 >
 > I want to extract data from Facebook Marketplace using Selenium. I want to get the date of the products for the past 2 days (ads listed 2 days ago), then from the past n weeks (ads listed n weeks ago), starting from today. I think I can get it by the function (find_elements_by...), but I don't know how to use it. Thank you in advance. This is the product, for example: Date = find_elements_byName('value').text Date_prod = Current_Time - Date
-
+```
 Although the developer asking the question did provide some functions and code that can be used, it was not clearly shown what the input looks like, what the program currently produces, what the expected output is, or what specific error is occurring.
 
 This is reflected in the responses received. Instead of immediately providing a solution, responders ask the developer for a **minimal reproducible example** and explain what they have tried. Another response simply points the developer toward a link on how to create such a question.
