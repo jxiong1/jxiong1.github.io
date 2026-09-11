@@ -56,7 +56,7 @@ Argument of type 'string' is not assignable to parameter of type 'number'.
 
 
 ## My First Impression
-As someone who is actively using JavaScript for work, I think it's a great language for software developement. It's lightweight, fast, and a popular language used across websites. When I first heard aboput TypeScript, it was explained to me like a extension of JavaScript, where types are now declearable for all variables, I wasn't super hyped about it. Since JavaScript works just fine for me, and cases like the one I mentioned in the previous section rarely happens and are easily fixable. Then I started scripting in TypeScript for a software engineering I have to take, and I see the benefit of using TypeScript. 
+As someone who is actively using JavaScript for work, I think it's a great language for software developement. It's lightweight, fast, and a popular language used across websites. When I first heard aboput TypeScript, it was explained to me like a extension of JavaScript, where types are now declearable for all variables, I wasn't super hyped about it. Since JavaScript works just fine for me, and cases like the one I mentioned in the previous section rarely happens and are easily fixable. Then I started scripting in TypeScript for a software engineering class, and I see the benefit of using TypeScript. 
 
 As mentioned before, TypeScript catches errors during compile-time, as I am typing the code. This means I get to correct my mistake before I spend my time running the script only to find out I have made a mistake somewhere when it returns an error. How great is that?
 
