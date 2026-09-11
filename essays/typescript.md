@@ -11,7 +11,7 @@ labels:
   - Software developement
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/typescript/typescript.PNG">
+<img width="400px" class="rounded float-start pe-4" src="../img/typescript/typescript.PNG">
 
 ## What is TypeScript?
 
