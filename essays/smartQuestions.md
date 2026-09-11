@@ -10,7 +10,7 @@ labels:
   - Smart Questions
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/smartQuestions/smart-questions.jpg">
 
 ## Introduction
 
