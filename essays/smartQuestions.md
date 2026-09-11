@@ -10,6 +10,7 @@ labels:
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+
 ## Introduction
 
 Communication is an essential skill for software engineers because software development rarely happens in isolation. Developers frequently need to ask other people for help when they encounter unfamiliar errors, confusing documentation, or problems that they cannot solve on their own. However, the way a question is asked can greatly affect the quality of the response. In his essay *How to Ask Questions the Smart Way*, Eric Raymond explains that people who ask technical questions should first do some research, clearly describe the problem, provide enough information for others to reproduce it, and demonstrate that they have made an effort to solve the problem themselves.
