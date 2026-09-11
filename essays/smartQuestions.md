@@ -125,7 +125,9 @@ For comparison, I examined the Stack Overflow question **"how to extract data wi
 ```
 > **Q: how to extract data with days ago and get specific time in python**
 >
-> I want to extract data from Facebook Marketplace using Selenium. I want to get the date of the products for the past 2 days (ads listed 2 days ago), then from the past n weeks (ads listed n weeks ago), starting from today. I think I can get it by the function (find_elements_by...), but I don't know how to use it. Thank you in advance. This is the product, for example: Date = find_elements_byName('value').text Date_prod = Current_Time - Date
+> I want to extract data from Facebook Marketplace using Selenium. I want to get the date of the products for the past 2 days (ads listed 2 days ago),
+> then from the past n weeks (ads listed n weeks ago), starting from today. I think I can get it by the function (find_elements_by...),
+> but I don't know how to use it. Thank you in advance. This is the product, for example: Date = find_elements_byName('value').text Date_prod = Current_Time - Date
 ```
 Although the developer asking the question did provide some functions and code that can be used, it was not clearly shown what the input looks like, what the program currently produces, what the expected output is, or what specific error is occurring.
 
