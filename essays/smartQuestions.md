@@ -13,14 +13,15 @@ labels:
 
 ## Introduction
 
-The skill of asking a question is essential in the world of Software Engineering, whether if it was back when people used to ask technical inquiries on forums like Stack Overflow, or now when we look for answers by asking AI, we must compile these questions with enough context for other people or AI to give us an acccurate/satifying answer. Sometimes, doing researches on a specific problem can even resolve the original question and allows us to analyze the problem and solve it with ease or come up with a follw up more percise question that would leads to the solution.
+The skill of asking a question is essential in the world of Software Engineering, whether it was back when people used to ask technical inquiries on forums like Stack Overflow, or now when we look for answers by asking AI. We must compile these questions with enough context for other people or AI to give us an accurate/satisfying answer. Sometimes, doing research on a specific problem can even resolve the original question and allow us to analyze the problem and solve it with ease, or come up with a follow-up, more precise question that would lead to the solution.
 
-In constrast, a vague with little information may lead to requests for clarification, non useful answers, or even downvotes on sites like Stack Overflow.
+In contrast, a vague question with little information may lead to requests for clarification, non-useful answers, or even downvotes on sites like Stack Overflow.
 
-Therefore, it is important to ask "Smart" questions in order to get the most out of both the contributors of a forum or a chatbot of a AI model.
+Therefore, it is important to ask "Smart" questions in order to get the most out of both the contributors of a forum or a chatbot of an AI model.
 
 ## What Makes a Question "Smart"?
-In the essay "How To Ask Questions The Smart Way" by Eric Steven Raymond, he emphasized that in order to amke a Question "smart", a person should make a reasonable effort to solve a problem before asking others for help. This includes searching existing discussions, searching the web, reading documentation, experimenting with the problem, and examining error messages. When a question is eventually posted, the person should explain what they are trying to accomplish, what they have already tried, and what specifically went wrong.
+
+In the essay "How To Ask Questions The Smart Way" by Eric Steven Raymond, he emphasized that in order to make a question "smart", a person should make a reasonable effort to solve a problem before asking others for help. This includes searching existing discussions, searching the web, reading documentation, experimenting with the problem, and examining error messages. When a question is eventually posted, the person should explain what they are trying to accomplish, what they have already tried, and what specifically went wrong.
 
 Another important thing is to provide a reproducible example to give to the other developers/contributors/AI. This consists of the smallest amount of code and information necessary to reproduce the problem, preventing people from having to guess what the original developer's environment or intentions might be.
 
@@ -77,7 +78,7 @@ The question revolves around PowerShell and filenames containing dates and times
 
 The question also provides relevant context about the problem and identifies the tools being used. This allows the problem to be specific enough that another developer can understand what the developer is trying to accomplish without needing a large amount of unrelated information.
 
-The response demonstrates why a well-formed question can lead to an efficient and effective solution. The answer given by other contributers points out that the date and time components of the filename are already arranged from the largest unit of time to the smallest. Because of this ordering, the filenames can be sorted as strings rather than requiring the developer to perform complicated date conversions. This solution addresses the underlying problem, since the responder recognizes the desired result can be achieved in a much simplier fasion.
+The response demonstrates why a well-formed question can lead to an efficient and effective solution. The answer given by other contributors points out that the date and time components of the filename are already arranged from the largest unit of time to the smallest. Because of this ordering, the filenames can be sorted as strings rather than requiring the developer to perform complicated date conversions. This solution addresses the underlying problem, since the responder recognizes the desired result can be achieved in a much simpler fashion.
 
 ### Answer
 
@@ -115,8 +116,6 @@ The response demonstrates why a well-formed question can lead to an efficient an
 > The regex engine will expand `$1` in the substitution string to "capture
 > group #1", which is the 12 digits we picked up at the end.
 
-
-
 ## Example of a Question That Is Not Smart
 
 For comparison, I examined the Stack Overflow question **"how to extract data with days ago and get specific time in python."** [Stack Overflow: How to extract data with days ago and get specific time in Python](https://stackoverflow.com/questions/73852334/how-to-extract-data-with-days-ago-and-get-specific-time-in-python)
@@ -125,17 +124,17 @@ For comparison, I examined the Stack Overflow question **"how to extract data wi
 
 > **Q: how to extract data with days ago and get specific time in python**
 >
-> i want to extract data from facebook marketplace using selenium , i want to get the date of the products for the past 2 days (ads listed 2 days ) then from the past n weeks ( ads listed n weeks ) starting from today , I think i can get it by thd function (find_elements_by...) but I don't know how to use it , thank you in adavance this prod for exemple Date = find_elements_byName('value').text  Date_prod = Current_Time - Date 
+> I want to extract data from Facebook Marketplace using Selenium. I want to get the date of the products for the past 2 days (ads listed 2 days ago), then from the past n weeks (ads listed n weeks ago), starting from today. I think I can get it by the function (find_elements_by...), but I don't know how to use it. Thank you in advance. This is the product, for example: Date = find_elements_byName('value').text Date_prod = Current_Time - Date
 
-Although the developer asking the question did provide some function and codes that can be use, it was not clealy show what the input looks like, what the program currently produces, what the expected out put is, or what specifc error is occuring.
+Although the developer asking the question did provide some functions and code that can be used, it was not clearly shown what the input looks like, what the program currently produces, what the expected output is, or what specific error is occurring.
 
-This is reflected on the response recieved. Instead of immediatiately providing a solutions, responders ask the developer for a **minimal reproducible example** and explain what they have tried. Another response simply points the thedeveloper toward a link on how to create such question.
+This is reflected in the responses received. Instead of immediately providing a solution, responders ask the developer for a **minimal reproducible example** and explain what they have tried. Another response simply points the developer toward a link on how to create such a question.
 
-The problem arises not from the programming question being too hard, rather it arises because the question does not provide enough information for someone else to efficiently diagnose the problem. The responders have to ask for additional information before they can meaningfully solve it.
+The problem arises not from the programming question being too hard; rather, it arises because the question does not provide enough information for someone else to efficiently diagnose the problem. The responders have to ask for additional information before they can meaningfully solve it.
 
-This demonstrates one of the major problems with "not smart" questions: they can shift the work from solving the technical problem to figuring out what the person is actually asking.
+This demonstrates that asking "not smart" questions can shift the response from answering a technical question to figuring out what a person is actually asking.
 
-## Lessons Learned
+## Final thoughts
 
 The biggest lesson I gained from this experience is that asking for help is itself a technical skill. It is not enough to recognize that I am stuck. I also need to communicate the problem in a way that allows another person to understand it quickly.
 
@@ -145,16 +144,4 @@ I also learned that providing more information does not automatically make a que
 
 The comparison between the two Stack Overflow examples made this difference particularly clear. The stronger question allowed the responder to quickly identify a simple solution. The weaker question caused responders to spend their initial effort asking the developer for more information. The difference was not necessarily the complexity of the programming problems, but the quality of the communication.
 
-## Conclusion
-
-Smart questions are an important part of becoming a smart software engineer. Programming is a collaborative discipline, and knowing how to communicate a technical problem is just as important as knowing how to write code. Raymond's guidelines emphasize preparation, clarity, specificity, and demonstrating effort before asking others for help.
-
-The two Stack Overflow examples demonstrate the practical effects of these principles. The PowerShell question provided enough useful information for the responder to quickly identify an effective solution. The Python question did not provide enough information to reproduce the problem, causing responders to request clarification before they could provide meaningful assistance.
-
-This experience showed me that asking a good question is not simply about getting someone else to solve a problem. A good question demonstrates that I have already tried to understand the problem and gives others the information they need to help me efficiently. Going forward, I will try to search for existing solutions first, clearly describe the problem, provide relevant evidence and code, and explain what I have already tried. These practices should make me a better communicator and, ultimately, a better software engineer.
-
-## References
-
-* [Eric S. Raymond — How to Ask Questions the Smart Way](https://www.catb.org/esr/faqs/smart-questions.html?utm_source=chatgpt.com)
-* [Stack Overflow — Parse out date from filename and sort by date](https://stackoverflow.com/questions/48529660/parse-out-date-from-filename-and-sort-by-date?utm_source=chatgpt.com)
-* [Stack Overflow — How to extract data with days ago and get specific time in Python](https://stackoverflow.com/questions/73852334/how-to-extract-data-with-days-ago-and-get-specific-time-in-python?utm_source=chatgpt.com)
+Grammar and proofreading done by AI
