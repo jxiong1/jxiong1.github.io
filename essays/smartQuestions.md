@@ -13,21 +13,20 @@ labels:
 
 ## Introduction
 
-Communication is an essential skill for software engineers because software development rarely happens in isolation. Developers frequently need to ask other people for help when they encounter unfamiliar errors, confusing documentation, or problems that they cannot solve on their own. However, the way a question is asked can greatly affect the quality of the response. In his essay *How to Ask Questions the Smart Way*, Eric Raymond explains that people who ask technical questions should first do some research, clearly describe the problem, provide enough information for others to reproduce it, and demonstrate that they have made an effort to solve the problem themselves.
+The skill of asking a question is essential in the world of Software Engineering, whether if it was back when people used to ask technical inquiries on forums like Stack Overflow, or now when we look for answers by asking AI, we must compile these questions with enough context for other people or AI to give us an acccurate/satifying answer. Sometimes, doing researches on a specific problem can even resolve the original question and allows us to analyze the problem and solve it with ease or come up with a follw up more percise question that would leads to the solution.
 
-These principles are especially relevant to communities such as Stack Overflow, where thousands of developers ask and answer questions. A well-written question can allow another developer to quickly understand the problem and provide a precise solution. In contrast, a vague question with little information may result in requests for clarification, downvotes, or no useful answer at all.
+In constrast, a vague with little information may lead to requests for clarification, non useful answers, or even downvotes on sites like Stack Overflow.
 
-For this experience, I examined two Stack Overflow questions. The first demonstrates many of the characteristics of a "smart" question, while the second demonstrates several characteristics of a question that is not asked effectively. Comparing these examples helped me understand why the quality of a question matters and how good questions can make the problem-solving process more efficient for everyone involved.
+Therefore, it is important to ask "Smart" questions in order to get the most out of both the contributors of a forum or a chatbot of a AI model.
 
 ## What Makes a Question "Smart"?
+In the essay "How To Ask Questions The Smart Way" by Eric Steven Raymond, he emphasized that in order to amke a Question "smart", a person should make a reasonable effort to solve a problem before asking others for help. This includes searching existing discussions, searching the web, reading documentation, experimenting with the problem, and examining error messages. When a question is eventually posted, the person should explain what they are trying to accomplish, what they have already tried, and what specifically went wrong.
 
-Raymond's essay emphasizes that a person should make a reasonable effort to solve a problem before asking others for help. This includes searching existing discussions, searching the web, reading documentation, experimenting with the problem, and examining error messages. When a question is eventually posted, the person should explain what they are trying to accomplish, what they have already tried, and what specifically went wrong.
-
-Another important principle is providing a **minimal reproducible example** when asking about code. A minimal reproducible example gives other developers the smallest amount of code and information necessary to reproduce the problem. This prevents people from having to guess what the original developer's environment or intentions might be.
+Another important thing is to provide a reproducible example to give to the other developers/contributors/AI. This consists of the smallest amount of code and information necessary to reproduce the problem, preventing people from having to guess what the original developer's environment or intentions might be.
 
 Raymond also emphasizes being explicit about the actual question. Instead of simply saying that something "doesn't work," a developer should explain the expected behavior, the actual behavior, and the difference between the two. This gives potential answers a clear direction.
 
-These principles benefit both the person asking the question and the people answering it. The person asking is forced to understand and investigate the problem more carefully, while the person answering receives enough information to provide a useful solution.
+These actions benefit both the person/AI asking the question and the people answering it. The person asking is forced to understand and investigate the problem more carefully, while the responder answering receives enough information to provide a useful solution.
 
 ## Example of a Smart Question
 
