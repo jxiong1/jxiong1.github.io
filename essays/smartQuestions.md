@@ -127,44 +127,13 @@ For comparison, I examined the Stack Overflow question **"how to extract data wi
 >
 > i want to extract data from facebook marketplace using selenium , i want to get the date of the products for the past 2 days (ads listed 2 days ) then from the past n weeks ( ads listed n weeks ) starting from today , I think i can get it by thd function (find_elements_by...) but I don't know how to use it , thank you in adavance this prod for exemple Date = find_elements_byName('value').text  Date_prod = Current_Time - Date 
 
-The developer explains that they are trying to extract information from Facebook Marketplace using Selenium. They want to determine when products were listed based on text such as "2 days ago" and then calculate the corresponding date. However, the question is difficult to understand because the description is unclear and contains very little organized information about the actual problem.
+Although the developer asking the question did provide some function and codes that can be use, it was not clealy show what the input looks like, what the program currently produces, what the expected out put is, or what specifc error is occuring.
 
-The developer gives a short piece of code resembling:
+This is reflected on the response recieved. Instead of immediatiately providing a solutions, responders ask the developer for a **minimal reproducible example** and explain what they have tried. Another response simply points the thedeveloper toward a link on how to create such question.
 
-```python
-Date = find_elements_byName('value').text
-Date_prod = Current_Time - Date
-```
-
-However, the code does not provide enough information to reproduce the problem. It does not clearly establish what the input looks like, what the program currently produces, what the expected output is, or what specific error is occurring.
-
-The responses demonstrate the consequences of asking a question without enough information. Instead of immediately providing a solution, responders ask the developer to provide a **minimal reproducible example** and explain what they have tried. One response simply asks what the developer has tried and requests a minimal reproducible example. Another response similarly points the developer toward Stack Overflow's guidance for creating one.
-
-The problem is not necessarily that the underlying programming question is too difficult. Instead, the question does not provide enough information for someone else to efficiently diagnose the problem. The responders have to ask for additional information before they can meaningfully solve it.
+The problem arises not from the programming question being too hard, rather it arises because the question does not provide enough information for someone else to efficiently diagnose the problem. The responders have to ask for additional information before they can meaningfully solve it.
 
 This demonstrates one of the major problems with "not smart" questions: they can shift the work from solving the technical problem to figuring out what the person is actually asking.
-
-## Comparing the Two Questions
-
-The biggest difference between the two examples is the amount of useful information provided to the people answering.
-
-The PowerShell question establishes a relatively clear goal and provides enough context for the answerer to recognize an important characteristic of the data. The answerer can immediately focus on solving the problem. As a result, the response is short but useful.
-
-The Python question, on the other hand, leaves several important questions unanswered. It is difficult to determine exactly what the input looks like, what the Selenium code returns, what the expected output should be, and what is currently going wrong. Consequently, the first responses focus on obtaining additional information instead of solving the original problem.
-
-This comparison also shows that a smart question does not necessarily need to be extremely long. A good technical question can be relatively short as long as it contains the information necessary to understand and reproduce the problem. The goal is not to write as much as possible; it is to provide the **right information**.
-
-## Why Smart Questions Matter for Software Engineers
-
-Learning how to ask smart questions is important because software engineering involves constant problem solving. No developer can know every programming language, framework, library, operating system, or development tool. Eventually, every developer will encounter a problem that requires outside knowledge.
-
-When developers ask good questions, they make collaboration more efficient. A teammate or member of an online community can spend their time solving the actual problem instead of trying to determine what the problem is. This is especially important in professional software development, where other developers may have limited time available to help.
-
-Smart questions also demonstrate preparation. Raymond argues that people are more likely to help when they can see that the person asking has already made an effort to understand and solve the problem. A developer who says, "I tried these two approaches, and here is the error produced by each one" gives an answerer something concrete to work with.
-
-There is also a personal benefit. The process of preparing a good question can sometimes solve the problem before the question is even posted. Explaining the problem clearly requires the developer to think carefully about what the program is supposed to do, what it actually does, and where the two differ. This can reveal mistakes or incorrect assumptions.
-
-Finally, smart questions create better documentation for future developers. A well-written Stack Overflow question and answer can become a useful resource for someone else experiencing the same problem. Raymond points out that good questions can help direct other people with similar problems toward a useful discussion and its resolution.
 
 ## Lessons Learned
 
