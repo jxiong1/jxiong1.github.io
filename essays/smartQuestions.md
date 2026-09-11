@@ -30,21 +30,102 @@ These actions benefit both the person/AI asking the question and the people answ
 
 ## Example of a Smart Question
 
-One example I found on Stack Overflow is the question **"Parse out date from filename and sort by date"**, which asks how to sort files based on dates contained within their filenames. [Stack Overflow: Parse out date from filename and sort by date](https://stackoverflow.com/questions/48529660/parse-out-date-from-filename-and-sort-by-date?utm_source=chatgpt.com)
+One example I found on Stack Overflow is the question **"Parse out date from filename and sort by date"**, which inquires about how to sort files based on dates contained within their filenames. [Stack Overflow: Parse out date from filename and sort by date](https://stackoverflow.com/questions/48529660/parse-out-date-from-filename-and-sort-by-date)
 
-The question concerns PowerShell and filenames containing dates and times. The developer was attempting to work with filenames formatted in a way that contained year, month, day, hour, and minute information. The question specifically focuses on how to interpret or sort the date information rather than asking a broad question such as "How do I sort files?"
+The question revolves around PowerShell and filenames containing dates and times. The developer was attempting to work with filenames formatted in a way that contained year, month, day, hour, and minute information. The question specifically focuses on how to interpret or sort the date information rather than asking a broad question such as "How do I sort files?"
 
-The question also provides relevant context about the problem and identifies the technology being used. Most importantly, the problem is specific enough that another developer can understand what the developer is trying to accomplish without needing a large amount of unrelated information.
+**Question:** [Python date of the previous month](https://stackoverflow.com/questions/48529660/parse-out-date-from-filename-and-sort-by-date)
 
-The response demonstrates why a well-formed question can lead to an efficient solution. The answer points out that the date and time components of the filename are already arranged from the largest unit of time to the smallest. Because of this ordering, the filenames can be sorted as strings rather than requiring the developer to perform complicated date conversions.
+> **Q: python date of the previous month**
+>
+> I am trying to get the date of the previous month with Python. Here is what I've tried:
+>
+> ```python
+> str(time.strftime('%Y')) + str(int(time.strftime('%m')) - 1)
+> ```
+>
+> However, this way is bad for 2 reasons: First it returns `20122` for the
+> February of 2012 (instead of `201202`) and secondly it will return `0`
+> instead of `12` on January.
+>
+> I have solved this trouble in bash with:
+>
+> ```bash
+> echo $(date -d"3 month ago" "+%G%m%d")
+> ```
+>
+> I think that if bash has a built-in way for this purpose, then Python,
+> much more equipped, should provide something better than forcing writing
+> one's own script to achieve this goal.
+>
+> Of course I could do something like:
+>
+> ```python
+> if int(time.strftime('%m')) == 1:
+>     return '12'
+> else:
+>     if int(time.strftime('%m')) < 10:
+>         return '0' + str(time.strftime('%m') - 1)
+>     else:
+>         return str(time.strftime('%m') - 1)
+> ```
+>
+> I have not tested this code and I don't want to use it anyway (unless I
+> can't find any other way).
+>
+> Thanks for your help!
 
-This is an effective answer because it addresses the underlying problem rather than simply providing a complicated implementation. The responder recognized that the developer's desired result could be achieved more simply than the questioner may have expected.
+The question also provides relevant context about the problem and identifies the tools being used. This allows the problem to be specific enough that another developer can understand what the developer is trying to accomplish without needing a large amount of unrelated information.
 
-This example demonstrates several principles from Raymond's essay. The question has a specific goal, provides relevant technical context, and is narrow enough for someone familiar with PowerShell to understand. The response is also efficient because the answerer does not need to ask several follow-up questions before providing a solution.
+The response demonstrates why a well-formed question can lead to an efficient and effective solution. The answer given by other contributers points out that the date and time components of the filename are already arranged from the largest unit of time to the smallest. Because of this ordering, the filenames can be sorted as strings rather than requiring the developer to perform complicated date conversions. This solution addresses the underlying problem, since the responder recognizes the desired result can be achieved in a much simplier fasion.
+
+### Answer
+
+> **With this format:**
+>
+> `myFileYYYYMMddHHmm.file`
+>
+> The individual parts of the date and time are already arranged from largest
+> (the year) to smallest (the minute) — this makes the string sortable!
+>
+> Only thing we need to do is grab the last 12 digits of the file name before
+> the extension:
+>
+> ```powershell
+> $SortedArray = Get-ChildItem *.file | Sort-Object { $_.BaseName -replace '^.*(\d{12})$', '$1' }
+> ```
+>
+> The regex pattern used:
+>
+> ```text
+> ^.*(\d{12})$
+> ```
+>
+> Can be broken down as follows:
+>
+> ```text
+> ^          # start of string
+> .*         # any character, 0 or more times
+> (          # capture group
+>   \d{12}   # any digit, 12 times
+> )          # end of capture group
+> $          # end of string
+> ```
+>
+> The regex engine will expand `$1` in the substitution string to "capture
+> group #1", which is the 12 digits we picked up at the end.
+
+
 
 ## Example of a Question That Is Not Smart
 
-For comparison, I examined the Stack Overflow question **"how to extract data with days ago and get specific time in python."** [Stack Overflow: How to extract data with days ago and get specific time in Python](https://stackoverflow.com/questions/73852334/how-to-extract-data-with-days-ago-and-get-specific-time-in-python?utm_source=chatgpt.com)
+For comparison, I examined the Stack Overflow question **"how to extract data with days ago and get specific time in python."** [Stack Overflow: How to extract data with days ago and get specific time in Python](https://stackoverflow.com/questions/73852334/how-to-extract-data-with-days-ago-and-get-specific-time-in-python)
+
+**Question:** [How to extract data with days ago and get specific time in Python](https://stackoverflow.com/questions/73852334/how-to-extract-data-with-days-ago-and-get-specific-time-in-python)
+
+> **Q: how to extract data with days ago and get specific time in python**
+>
+> i want to extract data from facebook marketplace using selenium , i want to get the date of the products for the past 2 days (ads listed 2 days ) then from the past n weeks ( ads listed n weeks ) starting from today , I think i can get it by thd function (find_elements_by...) but I don't know how to use it , thank you in adavance this prod for exemple Date = find_elements_byName('value').text  Date_prod = Current_Time - Date 
 
 The developer explains that they are trying to extract information from Facebook Marketplace using Selenium. They want to determine when products were listed based on text such as "2 days ago" and then calculate the corresponding date. However, the question is difficult to understand because the description is unclear and contains very little organized information about the actual problem.
 
