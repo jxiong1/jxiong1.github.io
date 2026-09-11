@@ -6,7 +6,8 @@ title: "Asking Smart Questions as a Software Engineer"
 date: 2026-09-10
 published: true
 labels:
-  - Engineering
+  - Software Engineering
+  - Smart Questions
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
