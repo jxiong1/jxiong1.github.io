@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/rose/rose_thumbnail.jpg
-title: "VIP Team RoSE - URC"
+title: "Team RoSE - URC"
 date: 2024 - Present
 published: true
 labels:
