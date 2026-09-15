@@ -11,7 +11,7 @@ labels:
   - Python
 summary: "A Python project which scrapes a website for information and generates a spreadsheet"
 ---
-<img class="img-fluid" src="../img/webscraper/python_logo.jpg">
+<img width="600px" class="img-fluid" src="../img/webscraper/python_logo.jpg">
 
 A Python project which scrapes a website containing daily income information for a store and generates a spreadsheet using the information collected.
 
