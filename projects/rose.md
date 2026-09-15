@@ -14,7 +14,7 @@ labels:
 summary: "A Vertically Integrated Project revolves around Robotics and Rover building for the University Rover Challenge"
 ---
 
-<img class="img-fluid" src="../img/rose/rover_pic.png">
+<img class="img-fluid" src="../img/rose/rover_pic.jpg">
 
 Team Robotic Space Exploration (RoSE) is an undergraduate, Vertically Integrated Project (VIP) that focuses on both robotics and space exploration
 team at the University of Hawaiʻi at Mānoa. 
@@ -88,4 +88,4 @@ My greatest takeaway from Team RoSE is the ability to use codes/scripts to contr
 Other great takeaways I had include troubleshooting and team working, as I spent countless hours troubleshooting codes/scripts and physical wiring of the rover's subsystem with others.
 
 <hr>
-</a>
+
