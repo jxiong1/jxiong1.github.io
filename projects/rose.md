@@ -51,8 +51,8 @@ My primary contribution to Team RoSE was developing control for the chassis of t
                          v
               +----------------------+
               | Hardware Interface   |
-              | Node (Custom C++      |
-              | Plugin)               |
+              | Node (Custom C++     |
+              | Plugin)              |
               +----------------------+
                          |
                          v
