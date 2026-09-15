@@ -14,7 +14,7 @@ labels:
 summary: "A Vertically Integrated Project revolving around robotics and rover building for the University Rover Challenge"
 ---
 
-<img width="500px"class="img-fluid" src="../img/rose/rover_pic.jpg">
+<img width="500px" class="img-fluid" src="../img/rose/rover_pic.jpg">
 
 Team Robotic Space Exploration (RoSE) is an undergraduate, Vertically Integrated Project (VIP) that focuses on both robotics and space exploration as a team at the University of Hawaiʻi at Mānoa.
 
