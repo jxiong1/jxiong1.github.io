@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/rose/rose-square.png
+image: img/rose/rover_pic.jpg
 title: "VIP Team RoSE - URC"
 date: 2025
 published: true
