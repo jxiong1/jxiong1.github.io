@@ -30,6 +30,46 @@ The competition consists of four major missions: Science, Delivery, Equipment Se
 
 My primary contribution to Team RoSE was developing control for the chassis of the rover, allowing the rover to be controlled using a controller. This is done using the `ros2_control` control framework. By mapping the definition of movement of the controller to the four individual wheel joints, it allows joystick input from the controller to be converted seamlessly into actual movement of the rover.
 
+<pre><code>
+        Operator Controller (Joystick / Gamepad)
+                         |
+                         v
+              (geometry_msgs/msg/Twist)
+                         |
+                         v
+                 [ ROS 2 Environment ]
+                         |
+                         v
+              +----------------------+
+              | Diff Drive Controller|
+              | (ros2_control plugin)|
+              +----------------------+
+                         |
+                         v
+              (Joint Velocity Commands)
+                         |
+                         v
+              +----------------------+
+              | Hardware Interface   |
+              | Node (Custom C++      |
+              | Plugin)               |
+              +----------------------+
+                         |
+                         v
+          CAN Bus (CAN-High / CAN-Low)
+                         |
+                         v
+              CAN Motor Controllers
+                         |
+                         v
+               4-Wheel Rover Chassis
+                         |
+                         v
+             Physical Rover Movement
+</code></pre>
+
+I also worked on the payload subsystem of the rover, which requires joystick input from a controller to control the movements of mechanical parts driven by motors and servos. The primary job of the payload subsystem is to collect scientific samples from the soil, then store and analyze them onboard the rover.
+
 <pre>
               Operator Controller
                        |
