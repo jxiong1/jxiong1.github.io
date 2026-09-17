@@ -11,7 +11,7 @@ labels:
   - Java
 summary: "Team Kika Mana, 368. Is a high school robotics team that builds robots to complete specific tasks and score points in the FIRST Robotics Competition"
 ---
-<img width="550px" class="img-fluid" src="../img/frc/frc-robot.jpeg">
+<img width="550px" class="img-fluid" src="../img/frc/frc-robot.JPEG">
 
 The FIRST Robotics Competition is a high school match-based robotics competition where teams from around the world build robots that work together to complete tasks. I was involved in one of the teams, Team Kika Mana out of McKinley High School, where we were guided and mentored by industry professionals to build a robot for the competition. The team is primarily divided into two major subsystems - Mechanical team, which designs, manufactures and assembles the robot, and the Electrical team, which is in charge of wiring and programming it. With great help from our mentors, our teams participated in the following events and won the following awards during my time as a member (2022 - 2024)
 
