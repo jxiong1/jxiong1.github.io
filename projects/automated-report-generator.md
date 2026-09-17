@@ -42,8 +42,8 @@ The project utilized a library called `selenium` to open and input information i
           +-------------+
                 |
                 v
-        Generate Excel
-          Spreadsheet
+          Generate Excel
+            Spreadsheet
 </code></pre>
 
 <hr>

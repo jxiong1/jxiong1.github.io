@@ -11,10 +11,11 @@ labels:
   - Robotics
   - C++
   - Embedded Systems
+  - Competition
 summary: "A Vertically Integrated Project revolving around robotics and rover building for the University Rover Challenge"
 ---
 
-<img width="500px" class="img-fluid" src="../img/rose/rover_pic.jpg">
+<img width="550px" class="img-fluid" src="../img/rose/rover_pic.jpg">
 
 Team Robotic Space Exploration (RoSE) is an undergraduate, Vertically Integrated Project (VIP) that focuses on both robotics and space exploration as a team at the University of Hawaiʻi at Mānoa.
 
@@ -37,13 +38,13 @@ My primary contribution to Team RoSE was developing control for the chassis of t
               (geometry_msgs/msg/Twist)
                          |
                          v
-                 [ ROS 2 Environment ]
+                [ ROS 2 Environment ]
                          |
                          v
-              +----------------------+
-              | Diff Drive Controller|
-              | (ros2_control plugin)|
-              +----------------------+
+              +-----------------------+
+              | Diff Drive Controller |
+              | (ros2_control plugin) |
+              +-----------------------+
                          |
                          v
               (Joint Velocity Commands)
@@ -56,16 +57,16 @@ My primary contribution to Team RoSE was developing control for the chassis of t
               +----------------------+
                          |
                          v
-          CAN Bus (CAN-High / CAN-Low)
+           CAN Bus (CAN-High / CAN-Low)
                          |
                          v
-              CAN Motor Controllers
+               CAN Motor Controllers
                          |
                          v
-               4-Wheel Rover Chassis
+                4-Wheel Rover Chassis
                          |
                          v
-             Physical Rover Movement
+              Physical Rover Movement
 </code></pre>
 
 I also worked on the payload subsystem of the rover, which requires joystick input from a controller to control the movements of mechanical parts driven by motors and servos. The primary job of the payload subsystem is to collect scientific samples from the soil, then store and analyze them onboard the rover.
