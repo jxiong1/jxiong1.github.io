@@ -38,7 +38,7 @@ The FIRST Robotics Competition is a high school match-based robotics competition
 
 Over three seasons on the team, I performed hardware wiring and software telemetry integrations
 
-* **Hardware & Training:** Constructed dedicated testbenches and assisted new members on basic Java programming to acclerating the onboarding process
+* **Hardware & Training:** Constructed dedicated testbenches and assisted new members on basic Java programming to accelerating the onboarding process
 
 * **Telemetry & Programming:** Programmed addressable LED lights to provide drivers and pit crew with a instant visual status of the robot (e.g., Autonomous vs. Teleop modes).
 
