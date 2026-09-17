@@ -44,7 +44,7 @@ Over three seasons on the team, I performed hardware wiring and software telemet
 
 * **Testing the Robot:** Programmed motor control scripts for early stage protyping. Enabling mechanical team to test, iterate, and refine designs.
 
-* **Chassis Integration * Autonomous Testing:** Supported electrical wiring for the robot and provided diagnostic feedback during autonomous trials.
+* **Chassis Integration & Autonomous Testing:** Supported electrical wiring for the robot and provided diagnostic feedback during autonomous trials.
 
 
 <hr>
