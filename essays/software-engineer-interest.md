@@ -11,7 +11,7 @@ labels:
   - Software developement
 ---
 
-<img width="400px" class="rounded float-start pe-4" src="../img/software-engineer/image.PNG">
+<img width="400px" class="rounded float-start pe-4" src="../img/software-engineer/image.png">
 
 ## What is Software Engineering?
 
