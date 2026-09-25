@@ -74,4 +74,4 @@ That being said, I was also guilty of ignoring some of the coding standards list
 
 My goal in the near future is to utilize these coding standards to their fullest extent so that I can become a better developer. I have already started by commenting code that is complicated, allowing my future self and others to understand it better. I have also started using tools such as ESLint for TypeScript to catch formatting inconsistencies, ensuring my code is standardized and uniform. Finally, I have begun using "if" statements to catch potential edge cases and implementing logs as flags to trace execution flow and catch logical bugs. I hope keeping these habits up will make me a better developer when working on larger projects and collaborating with others.
 
-AI Used for Grammar Corrections
+<small>AI Used for Grammar Corrections</small>

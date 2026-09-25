@@ -147,4 +147,4 @@ I also learned that providing more information does not automatically make a que
 
 The comparison between the two Stack Overflow examples made this difference particularly clear. The stronger question allowed the responder to quickly identify a simple solution. The weaker question caused responders to spend their initial effort asking the developer for more information. The difference was not necessarily the complexity of the programming problems, but the quality of the communication.
 
-Grammar and proofreading done by AI
+<small>Grammar and proofreading done by AI</small>
