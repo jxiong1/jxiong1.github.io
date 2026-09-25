@@ -17,50 +17,50 @@ Coding standards are an essential part of software engineering and programming a
 
 - **Formatting and Layout:** These rules govern indentation, whitespace usage, line length, and brace placement. While every programming language may have its own specifics, a common standard looks like this:
 
-```js
-function calculateTotal(price, tax) {
-  const total = price + tax;
+    ```js
+    function calculateTotal(price, tax) {
+      const total = price + tax;
 
-  if (total > 100) {
-    return total * 0.9;
-  }
+      if (total > 100) {
+        return total * 0.9;
+      }
 
-  return total;
-}
-```
+      return total;
+    }
+    ```
 
-This formatting ensures that code looks uniform across a team, enabling developers to easily maintain and collaborate on the same codebase.
+    This formatting ensures that code looks uniform across a team, enabling developers to easily maintain and collaborate on the same codebase.
 
 - **Naming Conventions:** Standardized ways to name variables, functions, and classes with meaningful names (e.g., camelCase, PascalCase, or UPPERCASE). Following consistent conventions provides instant context, as the name itself suggests its purpose, use case, and structure.
 
 - **Commenting and Documentation:** The purpose of this standard is to describe the intent behind a section of code. Instead of explaining what every single line does, the programmer should explain *why* the code was implemented in a specific way. For example:
 
-```ts
-/*
-Retry connection up to 3 times because the third-party API
-experiences frequent network drops during peak hours
-*/
-if (retry_count < 3) {
-  attempt_reconnection();
-}
-```
+    ```ts
+    /*
+    Retry connection up to 3 times because the third-party API
+    experiences frequent network drops during peak hours
+    */
+    if (retry_count < 3) {
+      attempt_reconnection();
+    }
+    ```
 
-This serves as a note to both the original author and future collaborators regarding what the code does and why it is needed, helping avoid misunderstandings.
+    This serves as a note to both the original author and future collaborators regarding what the code does and why it is needed, helping avoid misunderstandings.
 
 - **Error Handling:** Using consistent methods to catch exceptions, errors, and runtime crashes. This is especially useful for troubleshooting, as it provides developers with clearer context than standard compiler errors. A good error handling method uses `try-catch` statements to handle and log errors gracefully instead of allowing the application to crash:
 
-```ts
-try {
-  data = loadFile('config.json');
-} catch (error) {
-  if (error instanceof Error && error.name === 'FileNotFoundError') {
-    logger.error(`Configuration file missing: ${error.message}`);
-  } else {
-    logger.error(`Failed to load configuration: ${error}`);
-  }
-  data = loadDefaultConfig(); // Falls back to safe settings
-}
-```
+    ```ts
+    try {
+      data = loadFile('config.json');
+    } catch (error) {
+      if (error instanceof Error && error.name === 'FileNotFoundError') {
+        logger.error(`Configuration file missing: ${error.message}`);
+      } else {
+        logger.error(`Failed to load configuration: ${error}`);
+      }
+      data = loadDefaultConfig(); // Falls back to safe settings
+    }
+    ```
 
 - **Code Complexity Limits:** This practice establishes strict guidelines on how large a function or method can be. It prevents "Spaghetti Code" and "God Objects"—where a single section of code handles too many responsibilities—thereby keeping the codebase clean and adhering to the single-responsibility principle. Forcing developers to break code into smaller chunks makes components easier to reuse and unit test.
 
