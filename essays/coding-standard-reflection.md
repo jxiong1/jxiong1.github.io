@@ -11,8 +11,6 @@ labels:
   - Software developement
 ---
 
-<img width="400px" class="rounded float-start pe-4" src="../img/coding-standards/thumbnail.jpg">
-
 ## Importance of Coding Standards
 
 Coding standards are an essential part of software engineering and programming as a whole. They are a set of rules, best practices, and programming conventions that developers follow to write standardized, readable code. Consider the following key components of coding standards:
